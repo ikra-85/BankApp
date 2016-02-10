@@ -16,6 +16,7 @@ public class Menu {
 		menu.runMenu();
 	}
 
+	
 	public void runMenu() {
 		printHeader();
 		while (!exit) {
@@ -196,10 +197,12 @@ public class Menu {
 		System.out.println("0. Exit");
 
 	}
-
+	
+	// 
 	private void printHeader() {
 		System.out.println("=============================================");
 		System.out.println("	Welcome to the Bank Application		");
+		System.out.println("	This is Virtual Global Bank App		");
 		System.out.println("=============================================");
 	}
 } // class
